@@ -180,6 +180,8 @@ section:last-child {
     border-radius: 4px;
     transition: all .15s ease-in-out;
     margin-right: 6px;
+    margin-bottom: 6px;
+    display: inline-block;
   }
   
   .project-information > a:hover {
@@ -190,8 +192,8 @@ section:last-child {
 }
 
 @media only screen and (max-width: 700px) {
-  html {
-    font-size: 24px;
+  .institute {
+    display: block;
   }
   
   .project {
