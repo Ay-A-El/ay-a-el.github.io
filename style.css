@@ -204,7 +204,7 @@ section:last-child {
   
   #home {
     > #biography {
-      display: block;;
+      display: block;
     }
   }
   
@@ -213,9 +213,7 @@ section:last-child {
   }
   
   #home figure, #projects figure {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 16px;
+    display: grid;
+    place-items: center;
   }
 }
