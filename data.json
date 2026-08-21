@@ -1,0 +1,193 @@
+{
+	"summary": [
+		"Computer Science graduate from George Mason University (GPA: 3.82) currently pursuing an M.S. in Computer Science with a concentration in Cybersecurity. Experienced in software development through full-stack web and other projects, with proficiency in Python, C++, C, Java, JavaScript, C#. Additional experience in enterprise IT support, networking, and cybersecurity."
+	],
+	"education": [
+		{
+			"institute": "SANS Technology Institute, Cyber Academy",
+			"image": "images/brands/sans.svg",
+			"url": "https://www.sans.org/cyber-academy",
+			"credentials": [
+				{
+					"image": "images/certs/gcih.png",
+					"url": "https://www.credly.com/badges/d8603a9c-24bc-4a71-ac03-f02a1a8ec1eb",
+					"type": "certificate",
+					"title": "GIAC Certified Incident Handler (GCIH)",
+					"date-earned": "June 2026",
+					"date-expires": "June 2030"
+				},
+				{
+					"image": "images/certs/gsec.png",
+					"url": "https://www.credly.com/badges/6643b93c-fd43-4dff-83b8-cedae544227d",
+					"type": "certificate",
+					"title": "GIAC Security Essentials Certification (GSEC)",
+					"date-earned": "April 2026",
+					"date-expires": "April 2030"
+				},
+				{
+					"image": "images/certs/gfact.png",
+					"url": "https://www.credly.com/badges/66675590-fb9a-4905-b393-99be82ef4b9d",
+					"type": "certificate",
+					"title": "GIAC Foundational Cybersecurity Technologies (GFACT)",
+					"date-earned": "January 2026",
+					"date-expires": "January 2030"
+				}
+
+
+			]
+		},
+		{
+			"institute": "George Mason University",
+			"image": "images/brands/gmu.jpg",
+			"url": "https://www.gmu.edu/",
+			"credentials": [
+				{
+					"image": "images/degrees/msc.png",
+					"url": null,
+					"type": "degree",
+					"title": "Master of Science in Computer Science, Concentration in Cybersecurity",
+					"date-started": "August 2025",
+					"date-ended": "December 2026"
+				},
+				{
+					"image": "images/degrees/bsc.png",
+					"url": "https://www.parchment.com/lp/award/2a682f27-9d3c-46ca-9aff-7447cf1fcbb4",
+					"type": "degree",
+					"title": "Bachelor of Science in Computer Science",
+					"date-started": "August 2021",
+					"date-ended": "December 2024"
+				}
+
+			]
+		}
+	],
+	"experience": [
+		{
+			"position": "Computer Science Grader",
+			"company": "George Mason University",
+			"location": "Fairfax, VA",
+			"date-started": "August 2025",
+			"date-ended": "December 2025",
+			"image": "images/brands/gmu.jpg",
+			"url": "https://www.gmu.edu/",
+			"description": [
+				"Evaluated Analysis of Algorithms assignments and examinations for 80+ students, ensuring grading accuracy and consistency.",
+				"Assisted with examination administration for 40+ students across multiple assessment cycles."
+			]
+		},
+		{
+			"position": "IT Helpdesk Intern",
+			"company": "AlexRenew",
+			"location": "Alexandria, VA",
+			"date-started": "June 2024",
+			"date-ended": "August 2024",
+			"image": "images/brands/alexrenew.jpg",
+			"url": "https://alexrenew.com/",
+			"description": [
+				"Resolved 50+ hardware, software, and network support tickets in a professional enterprise environment.",
+				"Troubleshot workstation, network, and audiovisual systems across multiple departments.",
+				"Maintained IT asset inventory and ensured timely procurement of related supplies.",
+				"Executed system updates and security patch implementations."
+			]
+		},
+		{
+			"position": "Undergraduate Teaching Assistant (Operating Systems)",
+			"company": "George Mason University",
+			"location": "Fairfax, VA",
+			"date-started": "January 2024",
+			"date-ended": "May 2024",
+			"image": "images/brands/gmu.jpg",
+			"url": "https://www.gmu.edu/",
+			"description": [
+				"Assisted for CS471/CS571 at George Mason University."
+			]
+		},
+		{
+			"position": "Undergraduate Teaching Assistant (Systems Programming)",
+			"company": "George Mason University",
+			"location": "Fairfax, VA",
+			"date-started": "January 2023",
+			"date-ended": "May 2023",
+			"image": "images/brands/gmu.jpg",
+			"url": "https://www.gmu.edu/",
+			"description": [
+				"Assisted for CS367 at George Mason University."
+			]
+		},
+		{
+			"position": "Undergraduate Teaching Assistant (Data Structures)",
+			"company": "George Mason University",
+			"location": "Fairfax, VA",
+			"date-started": "August 2022",
+			"date-ended": "December 2022",
+			"image": "images/brands/gmu.jpg",
+			"url": "https://www.gmu.edu/",
+			"description": [
+				"Assisted for CS310 at George Mason University."
+			]
+		},
+		{
+			"position": "Technical Project Manager",
+			"company": "AlxTel, Inc.",
+			"location": "Silver Spring, MD",
+			"date-started": "May 2022",
+			"date-ended": "August 2022",
+			"image": "images/brands/alxtel.jpg",
+			"url": "https://www.alxtel.com/",
+			"description": [
+				"Coordinated vendor communications and technology procurement activities.",
+				"Evaluated technical proposals and service quotations against customer requirements.",
+				"Maintained proposal documentation and compliance records.",
+				"Organized contract opportunities and technical documentation to streamline proposal workflows."
+			]
+		}
+	],
+	"projects": [
+		{
+			"title": "Radio Station",
+			"stack": ["Node.js", "EJS", "HTML", "CSS", "MongoDB", "Git"],
+			"image": "images/projects/radio-station.png",
+			"url": "https://github.com/TheNinjaFilosopher/SWE432-Group-10",
+			"extras": [
+				{"title": "Frontend demo", "url": "https://youtu.be/ogZasiZhqlw"},
+				{"title": "Backend demo", "url": "https://youtu.be/LvoCntkuiJY"}
+			],
+			"description": [
+				"Engineered a full-stack web application enabling DJs to reserve time slots.",
+				"Integrated MongoDB with Node.js, implementing CRUD operations for seamless data management.",
+				"Designed a cohesive UI, standardizing layouts for team collaboration and reducing design inconsistencies by 60 percent."
+			]
+		},
+		{
+			"title": "AutoAssist",
+			"stack": ["React", "Docker", "Git"],
+			"image": "images/projects/autoassist.png",
+			"url": null,
+			"description": [
+				"Developed a frontend to allow users to interact by signing up then inputting vehicle information"
+			]
+		},
+		{
+			"title": "Arbitrary-Precision Integer Library",
+			"stack": ["C++"],
+			"image": null,
+			"url": null,
+			"description": [
+				"Developed a custom arbitrary-precision arithmetic library using STL and operator overloading.",
+				"Implemented addition, subtraction, multiplication, division, exponentiation, bit shifting, and logarithm operations.",
+				"Optimized computational efficiency through large-base numerical representations."
+			]
+		},
+		{
+			"title": "Data Structures in C89",
+			"stack": ["C", "Git"],
+			"image": null,
+			"url": null,
+			"description": [
+				"Developed a data structures library with an aim for compatibility for older versions of C.",
+				"Implemented binary search tree, deque, undirected graph, hashmap, and priority set.",
+				"Designed the data structures to be generic by allowing users to supply their own functions."
+			]
+		}
+	]
+}
