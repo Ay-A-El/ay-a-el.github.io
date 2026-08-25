@@ -27,10 +27,31 @@ body {
 
 header {
   background-color: var(--header-bg-color);
-  color: #fff;
-  text-align: center;
+  color: #ffff;
   position: sticky;
   top: 0;
+  > div {
+    text-align: center;
+  }
+  
+  #menu {
+    position: fixed;
+    top: 0;
+    display: none;
+    background-color: var(--header-bg-color);
+    background-image: url("images/menu.svg");
+    background-position-x: 0px;
+    background-size: cover;
+    height: 40px;
+    width: 42px;
+    border: none;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+  }
+  
+  #menu:active {
+    filter: invert(100%);
+  }
 }
 
 nav {
@@ -215,5 +236,27 @@ section:last-child {
   #home figure, #projects figure {
     display: grid;
     place-items: center;
+  }
+  
+  nav {
+    position: fixed;
+    top: 40px;
+    width: 100vw;
+    ul {
+      display: block;
+    }
+    display: none;
+  }
+  
+  nav.selected {
+    display: block;
+  }
+  
+  #menu {
+    display: block !important;
+  }
+  
+  section {
+    scroll-margin-top: 50px;
   }
 }

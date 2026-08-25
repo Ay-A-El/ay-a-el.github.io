@@ -1,9 +1,17 @@
 document.addEventListener("DOMContentLoaded", async e => {
-	document.querySelector("nav").addEventListener("click", e => {
+	const navigationBar = document.querySelector("nav");
+	navigationBar.addEventListener("click", e => {
 		e.preventDefault();
 		if (e.target && e.target.matches("a")) {
 			const id = e.target.getAttribute("href").substr(2);
 			document.getElementById(id).scrollIntoView({behavior: "smooth"});
+		}
+	});
+
+	const menuButton = document.getElementById("menu");
+	document.addEventListener("click", e => {
+		if (menuButton.contains(e.target) || navigationBar.contains(e.target)) {
+			navigationBar.classList.toggle("selected");
 		}
 	});
 	function fromMonthYearToTimeTag(monthYear) {
