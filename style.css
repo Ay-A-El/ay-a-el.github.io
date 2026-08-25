@@ -36,11 +36,10 @@ header {
   
   #menu {
     position: fixed;
-    top: 0;
+    top: -1px;
     display: none;
     background-color: var(--header-bg-color);
     background-image: url("images/menu.svg");
-    background-position-x: 0px;
     background-size: cover;
     height: 40px;
     width: 42px;
@@ -240,7 +239,7 @@ section:last-child {
   
   nav {
     position: fixed;
-    top: 40px;
+    top: 39px;
     width: 100vw;
     ul {
       display: block;
