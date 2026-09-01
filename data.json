@@ -63,6 +63,20 @@
 	],
 	"experience": [
 		{
+			"position": "Graduate Teaching Assistant (Systems Programming)",
+			"company": "George Mason University",
+			"location": "Fairfax, VA",
+			"date-started": "August 2026",
+			"date-ended": null,
+			"image": "images/brands/gmu.jpg",
+			"url": "https://www.gmu.edu/",
+			"description": [
+				"Teaching recitation and holding office hours for CS 367 at George Mason University.",
+				"Answering student questions related to logistics, course concepts, and assignments.",
+				"Giving feedback on recitation worksheets and grading projects."
+			]
+		},
+		{
 			"position": "Computer Science Grader",
 			"company": "George Mason University",
 			"location": "Fairfax, VA",

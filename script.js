@@ -15,6 +15,10 @@ document.addEventListener("DOMContentLoaded", async e => {
 		}
 	});
 	function fromMonthYearToTimeTag(monthYear) {
+		if (!monthYear) {
+			return undefined;
+		}
+
 		const monthDict = {
 			"January": "01",
 			"February": "02",
@@ -161,7 +165,7 @@ document.addEventListener("DOMContentLoaded", async e => {
 			.addHeaderText("date-range", [
 				fromMonthYearToTimeTag(expJson["date-started"]),
 				document.createTextNode(" - "),
-				fromMonthYearToTimeTag(expJson["date-ended"])
+				fromMonthYearToTimeTag(expJson["date-ended"]) || document.createTextNode("Present")
 			])
 			.setDescription(expJson.description)
 			.build()
